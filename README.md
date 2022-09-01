@@ -111,7 +111,7 @@ Other:
 - Statistical Parity 
 - Equalized Odds
 - True Positive Rate difference
-- Flse Positive Rate difference
+- False Positive Rate difference
 - True Negative Rate difference
 - False Negative Rate difference
 - Positve Predictive Value difference
