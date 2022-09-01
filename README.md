@@ -45,10 +45,8 @@ Optionally, the user can specify:
 ### Making a recommendation
 In order to perform all steps of FairAST and make a recommendation, the user only needs to create a Recommendation object, and run the 'recommend' method.
 An example:
-'''py
-rec = Recommendation(sample_runs=3,final_top=3)
-rec.recommend(compas_data, ['race-sex'], 'two_year_recid', [{'race-sex': 1}], [{'race-sex': 0}], 'did_not_recid', 'did_recid', 'EO')
-'''
+```py rec = Recommendation(sample_runs=3,final_top=3)
+rec.recommend(compas_data, ['race-sex'], 'two_year_recid', [{'race-sex': 1}], [{'race-sex': 0}], 'did_not_recid', 'did_recid', 'EO')```
 
 ## Implemented Bias Mitigation Algorithms
 
