@@ -61,7 +61,7 @@ class Profile():
     Calculate the balance of favorable and unfavorable labels.
     """
     n_fav = self.data.df[self.data.label_name].value_counts()[1]
-    n_unfav = self.data[self.data.label_name].value_counts()[0]
+    n_unfav = self.data.df[self.data.label_name].value_counts()[0]
     ratio = n_fav/n_unfav
     if ratio <= 0.5 or ratio >= 2:
       self.balance = 'imbalanced'
