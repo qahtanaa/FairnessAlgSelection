@@ -59,19 +59,19 @@ New bias mitigation algorithms can be added to the Algorithms class.
 3. Create a function in the Algorithms class that can be used to train and test NAME, according to the following format:
 ```
 def run_NAME(self, data, X_train, X_test, y_train, y_test, train_data, test_data):
-"""
-Run the NAME algorithm, return the results.
-"""
-#TO DO: Make sure the data is in the correct format for the algorithm
-#TO DO: Set any parameters of the algorithm
+  """
+  Run the NAME algorithm, return the results.
+  """
+  #TO DO: Make sure the data is in the correct format for the algorithm
+  #TO DO: Set any parameters of the algorithm
 
-#TO DO: Perform all necessary steps to train the algorithm
+  #TO DO: Perform all necessary steps to train the algorithm
 
-pred = #TO DO: make predictions after bias mitigation
+  pred = #TO DO: make predictions after bias mitigation
 
-results = self.evaluate(test_data, pred, data.priv, data.unpriv)
+  results = self.evaluate(test_data, pred, data.priv, data.unpriv)
 
-return results
+  return results
 ```
 
 4. Add NAME to the dictionary inside the function 'run_algorithms', by adding:
