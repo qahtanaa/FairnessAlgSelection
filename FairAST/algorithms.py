@@ -24,14 +24,6 @@ import tensorflow
 import tensorflow.compat.v1 as tf
 tf.disable_eager_execution()
 
-import tensorflow
-import tensorflow.compat.v1 as tf
-tf.disable_eager_execution()
-
-import tensorflow
-import tensorflow.compat.v1 as tf
-tf.disable_eager_execution()
-
 class Algorithms():
   """
   Class that stores the requirements of all the algorithms, in combination with the rules and the compatibility of fairness measures.
