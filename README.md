@@ -1,4 +1,4 @@
-#FairAST (Fair Algorithm Selection Tool)
+# FairAST (Fair Algorithm Selection Tool)
 Algorithmic Fairness: which algorithm suits my purpose?
 Master Thesis Project Utrecht University
 
